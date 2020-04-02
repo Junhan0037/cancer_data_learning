@@ -1,0 +1,16 @@
+wdbc.csv 유방암 양성 또는 악성 데이터..(참고 악성이 나쁜거다. 구글 쳐봄)
+
+wdbc_header.csv : wdbc.csv header를 추가했다. (영어로)
+
+wdbc2.csv : wdbc_header.csv의 id값을 제거 했다.
+
+wdbc_mean.csv : wdbc2.csv의 mead 값만 추출(평균값만 추출했다.)
+
+wdbc_se.csv : wdbc2.csv의 se 값만 추출(표준오차를 의미한다.) 
+
+wdbc_worst.csv : wdbc3.csv의 worst 값만 추출(각 세포별 가장 큰 3개의 값의 평균 추출값을 의미)
+
+
+data_refine.ipynb : 위 데이터를 정제를 위한 파일
+
+cancer_maen.ipynb : 
